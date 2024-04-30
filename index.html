@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gotta Catch'em All</title>
+    <link rel="stylesheet" href="style/pageStyles.css">
+    <link rel="stylesheet" href="style/pokemon.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 style="padding-top: 15px;">
+                Pokémon
+            </h1>
+        </header>
+        
+        <main>
+            <h2 style="padding-top: 10px; padding-left: 10px; text-align: left;"> 
+                Pokémon Families
+            </h2>
+            
+            <p style="text-align: left; font-family: Helvetica; padding: 20px;">
+                Welcome to the ultimate Pokémon transformation! Explore the Pokémon 
+                world of my nephews and nieces! Discover the custom-made Pokémon cards 
+                featuring my nephews and nieces, each with their own unique stats and 
+                designs. Dive into the collection and witness their transformation into 
+                Pokémon characters, capturing their personalities in a whole new light.
+            </p>
+
+            <br>
+            
+            <div class="image">
+                <img src="Shared/Guess Who.gif" alt="Need to Find an Image for here." style="height: 325px; width: 325px; margin: 4.5px; padding: 10px;">
+            </div>
+        </main>
+        
+        <aside class="right-sidebar">
+            <h2>
+                <img src="Shared/pokeball.gif" alt="Diamond Pokeball" style="height: 30px; width: 50px; margin-top: 10px;">
+                Exploration
+            </h2>
+            
+            <br>
+            <br>
+            
+            <nav class="holygrail-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <h3>Home</h3>
+                        </a>
+                    </li>
+                
+                    <br>
+                    <br>
+
+                    <li>
+                        <a href="Krause.html">
+                            <h3>Krause Family</h3>
+                        </a>
+                    </li>
+
+                    <br>
+                    <br>
+                    
+                    <li>
+                        <a href="Seeboeck.html">
+                            <h3>Seeboeck Family</h3>
+                        </a>
+                    </li>
+
+                    <br>
+                    <br>
+                    
+                    <li>
+                        <a href="Smith.html">
+                            <h3>Smith Family</h3>
+                        </a>
+                    </li>
+
+                    <br>
+                    <br>
+                    
+                    <li>
+                        <a href="about.html">
+                            <h3>Additional Info</h3>
+                        </a>
+                    </li>
+
+                    
+                </ul>
+            </nav>
+            
+            <!-- 
+                I found this code on Open Pen using SCSS and repurposed it as best I could.
+                When I found it I had to add it, there is some problem with the way the code
+                worked in Open Pen vs Visual Studio Code. The inline styling I used to edit
+                the classes from 'pokemon.css'. I couldn't get the 'ear-right' class to work
+                correctly, so I repurposed the 'ear-left' class and just performed a mirror
+                flip over the y-axis.
+
+                Source: https://codepen.io/fionnachan/pen/oLVoNb
+            -->
+            <div class="animationContainer">
+                <div class="emoji pikachu">
+                    <div class="face">
+                        <div class="ear-left" style="top: -25px; left: -20px;"></div>
+                        <div class="ear-left" style="left: 65px; top: -25px; transform: scale(-1, 1);"></div>
+                        <div class="eye-closed-left" style="left: 18px;"></div>
+                        <div class="eye-closed-right"></div>
+                        <div class="eye-open"></div>
+                        <div class="nose"></div>
+                        <div class="mouth-wrapper">
+                            <div class="line" style="top: -2px; left: -4px; border-radius: 50px 50px 60px 60px/0px 0px 30px 30px;"></div>
+                            <div class="mouth"></div>
+                        </div>
+                        <div class="cheek-left"></div>
+                        <div class="cheek-right"></div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        
+        <footer>
+            Created By: Michael Krause
+        </footer>
+    </div>
+</body>
+</html>
